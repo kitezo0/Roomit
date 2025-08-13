@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    /* 색 바꾸기 */
+}
+
+body {
+    font-family: "Freesentation";
+    font-size: 16px;
+    color: #261716;
+    background-color: #FFF7F3;
+}
+
+#wrap {
+    overflow: hidden;
+    min-width: 1200px;
+}
+
+.end {
+    margin: auto;
+    padding-top: 150px;
+    /* border: 1px solid red; */
+}
+
+div p:nth-child(1) {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    border-bottom: 1px solid #CF7364;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+img{
+    margin: 50px 20px;
+    /* border: 1px solid red; */
+}
+div p:nth-child(2) {
+    font-size: 18px;
+    font-weight: 500;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+span{
+    color: #CF7364;
+    font-weight: 600;
+}
+div p:nth-child(3) {
+    font-size: 15px;
+    font-weight: 500;
+    color: #3d3d3d;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    /* border: 1px solid red; */
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.button a{
+    display: inline-block;
+    background-color: #CF7364;
+    border: 2px solid #CF7364;
+    padding: 3px 12px;
+    border-radius: 15px;
+    justify-content: flex-end;
+}
+
+.button a:hover{
+    color: #CF7364;
+    font-weight: 600;
+    border: 2px solid #CF7364;
+    background-color: #fff;
+    filter: drop-shadow(2px 2px 2px rgba(110, 9, 9, 0.6));
+}
