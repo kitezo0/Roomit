@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 기본 */
+.basic{
+    width: 1000px;
+}
+.basic img{
+    width: 100%;
+    display: block;
+}
+.basic .swiper-button-next,
+.swiper-button-prev{
+    color: green;
+}
+.basic .swiper-pagination-bullet{
+    background: purple;
+    width: 50px;
+    border-radius: 50px;
+}
+
+/* 갤러리 형태 */
+.autoplay{
+    width: 1135px;
+    margin: 50px auto;
+    padding: 0 80px 30px;
+    box-sizing: border-box;
+}
+.autoplay .swiper-slide img{
+    display: block;
+    width: 100%;
+}
+.autoplay .swiper-button-next::after,
+.autoplay .swiper-button-prev::after{
+    display: none;
+}
+.autoplay .swiper-button-next,
+.autoplay .swiper-button-prev{
+    width: auto;
+    height: auto;
+}
+
+/* 하단 */
